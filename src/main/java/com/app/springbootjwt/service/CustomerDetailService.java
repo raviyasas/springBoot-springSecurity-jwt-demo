@@ -1,4 +1,4 @@
-package com.app.springbootjwt.security;
+package com.app.springbootjwt.service;
 
 import com.app.springbootjwt.model.ApplicationUser;
 import org.springframework.security.core.authority.AuthorityUtils;

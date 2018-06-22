@@ -1,5 +1,6 @@
 package com.app.springbootjwt.security;
 
+import com.app.springbootjwt.service.CustomerDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

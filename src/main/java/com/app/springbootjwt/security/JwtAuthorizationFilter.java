@@ -1,6 +1,7 @@
 package com.app.springbootjwt.security;
 
 import com.app.springbootjwt.model.ApplicationUser;
+import com.app.springbootjwt.service.CustomerDetailService;
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
