@@ -18,6 +18,6 @@ public class CustomerDetailService implements UserDetailsService {
     }
 
     public ApplicationUser applicationUserByUsername(String username){
-        return new ApplicationUser("admin","admin");
+        return new ApplicationUser("admin","{noop}admin");
     }
 }
